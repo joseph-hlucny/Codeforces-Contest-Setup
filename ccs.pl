@@ -19,7 +19,6 @@ else {
     my $response = $browser->get($contest_url);
     die "Can't get $contest_url -- ", $response->status_line
         unless $response->is_success;
-    print "success\n";
     # decodes response and converts into a pointer to a perl hash data structure
     my $message = $response->decoded_content;
     my $contest_data = from_json($message);
