@@ -5,4 +5,7 @@ This script is tested on the most recent version of strawberry Perl. To use this
 
 `perl ccs.pl [Codeforce_Contest_ID]`
 
-replacing [Codeforce_Contest_ID] with the ID located in the contest's URL. Note that the Contest ID is not the same as the Round Number. 
+replacing [Codeforce_Contest_ID] with the ID located in the contest's URL. Note that the Contest ID is not the same as the Round Number.
+
+
+Probably won't use this, as Codeforces has too much emphasis on COMPETITIVE programming, while I'm more interested in learning.
